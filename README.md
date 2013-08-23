@@ -104,6 +104,8 @@ Roadmap
 
 I intend to maintain this package, fixing bugs and keeping up-to-date with jQuery mobile and Django, but plan little other development.
 
+The system currently pulls the CSS from the jquery CDN, so that we don't have to worry about relative image paths therein. If there is a strong demand for the CSS to be served from the local static files, then I'll consider including a local CSS by default and writing a script to replace the image URLs in the default CSS.
+
 Issues
 ======
 

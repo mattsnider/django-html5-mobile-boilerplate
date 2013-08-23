@@ -1,3 +1,5 @@
+v1.0.2, 8/23/2013 -- Using remote jQuery Mobile CSS for relative image paths.
+
 v1.0.1, 8/23/2013 -- Fixed Manifest.
 
 v1.0.0, 8/23/2013 -- Initial release (contained error in Manifest).
