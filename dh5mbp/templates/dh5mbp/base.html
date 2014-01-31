@@ -34,6 +34,8 @@
     {% block dh5mbp_js %}
     <!-- use shared resources, when possible -->
     <script src="http://code.jquery.com/mobile/{{ dh5mbp_jqm_version|default:'1.4.0' }}/jquery.mobile-{{ dh5mbp_jqm_version|default:'1.4.0' }}.min.js"></script>
-	<script>window.jQuery.mobile || document.write('<script src="{% static "js/dh5mbp/jquery.mobile-{{ dh5mbp_jqm_version|default:"1.4.0" }}.min.js" %}"><\/script>')</script>
+    {% with dh5mbp_jqm_version|default:'1.4.0' as temp %}
+        <script>window.jQuery.mobile || document.write('<script src="{% static 'js/dh5mbp/jquery.mobile-'|add:temp|add:'.min.js' %}"><\/script>')</script>
+    {% endwith %}
     {% endblock %}
 {% endblock %}
