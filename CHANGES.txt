@@ -1,3 +1,6 @@
+v1.0.3, 1/31/2014
+* specify the version of jquery you want to use with dh5mbp_jqm_version, by default it will use the latest version of jquery mobile when package is compiled. Should be in the format of "1.4.0".
+
 v1.0.2, 8/23/2013 -- Using remote jQuery Mobile CSS for relative image paths.
 
 v1.0.1, 8/23/2013 -- Fixed Manifest.

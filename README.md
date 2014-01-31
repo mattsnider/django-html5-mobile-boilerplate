@@ -99,6 +99,8 @@ If those paths don't work for you, then use the follow block to replace them:
     <link rel="apple-touch-icon" sizes="144x144" href="{% static 'YOUR_PATH/touch-icon-ipad-retina.png' %}" />
     {% endblock %}
 
+Control the version of jQuery mobile that is used. Provide the `dh5mbp_jqm_version` variable to the template. The value for this variable should look like "1.4.0", "1.3.2", "1.3.1", etc.
+
 Roadmap
 =======
 
