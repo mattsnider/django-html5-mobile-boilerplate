@@ -1,3 +1,7 @@
+v1.0.4, 2/21/2014
+* the CSS files for versions 1.3.2 and 1.4.0 were not included
+* adding and upgrading to jquery-mobile version 1.4.1
+
 v1.0.3, 1/31/2014
 * specify the version of jquery you want to use with dh5mbp_jqm_version, by default it will use the latest version of jquery mobile when package is compiled. Should be in the format of "1.4.0".
 

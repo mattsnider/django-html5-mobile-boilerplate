@@ -9,7 +9,7 @@
     to be included with the package, but you'll have to have to jump
     through hoops to support images.
     {% endcomment %}
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/{{ dh5mbp_jqm_version|default:'1.4.0' }}/jquery.mobile-{{ dh5mbp_jqm_version|default:'1.4.0' }}.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/{{ dh5mbp_jqm_version|default:'1.4.1' }}/jquery.mobile-{{ dh5mbp_jqm_version|default:'1.4.1' }}.min.css" />
     {% endblock %}
  
     <!-- make iOS behave like native when installed on home screen -->
@@ -33,8 +33,8 @@
 {% block post_main_script %}
     {% block dh5mbp_js %}
     <!-- use shared resources, when possible -->
-    <script src="http://code.jquery.com/mobile/{{ dh5mbp_jqm_version|default:'1.4.0' }}/jquery.mobile-{{ dh5mbp_jqm_version|default:'1.4.0' }}.min.js"></script>
-    {% with dh5mbp_jqm_version|default:'1.4.0' as temp %}
+    <script src="http://code.jquery.com/mobile/{{ dh5mbp_jqm_version|default:'1.4.1' }}/jquery.mobile-{{ dh5mbp_jqm_version|default:'1.4.1' }}.min.js"></script>
+    {% with dh5mbp_jqm_version|default:'1.4.1' as temp %}
         <script>window.jQuery.mobile || document.write('<script src="{% static 'js/dh5mbp/jquery.mobile-'|add:temp|add:'.min.js' %}"><\/script>')</script>
     {% endwith %}
     {% endblock %}
